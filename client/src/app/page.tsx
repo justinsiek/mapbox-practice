@@ -50,7 +50,7 @@ const useMapbox = (container: React.RefObject<HTMLDivElement | null>) => {
 
       map.current.addSource('blockgroup-income', {
         type: 'geojson',
-        data: '/orange_county_blockgroups_with_income.geojson'
+        data: '/orange_county_blockgroups_with_income_cleaned.geojson'
       });
 
       // Add heatmap layer
